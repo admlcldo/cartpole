@@ -1,7 +1,6 @@
-# cartpole
+# Cart Pole
 
 Trains a neural network on the cartpole environment from OpenAI gym.
-An episode of cartpole is won when you balance for 200 frames.
 
 The neural network is built using tensorflow.
 
@@ -12,4 +11,6 @@ The training algorithm is very simple:
 4) increase the threshold value
 
 we increase the threshold value by taking the maximum of the current threshold and the average
-survival time from the batch
+survival time (in terms of steps) from the batch. The maximum possible number of steps in an episode is 200
+
+
