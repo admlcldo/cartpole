@@ -4,6 +4,8 @@ Trains a neural network on the cartpole environment from OpenAI gym.
 
 The neural network is built using TensorFlow.
 
+Repository contains a jupyter notebook and a regular python script of the same code.
+
 The training algorithm is very simple: 
 1) play a batch of episodes
 2) take all episodes which performed better than some threshold value
