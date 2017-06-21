@@ -19,6 +19,9 @@ survival time (in terms of steps) from the batch. The maximum possible number of
 Here is an episode early in the training, it dies almost immediately.
 ![Early Training](https://github.com/admlcldo/cartpole/blob/master/early_training.gif)
 
-Here is an episode near the end of training 500 iterations (batch size 20). It survives
+Here is an episode near the end of training 500 iterations (batch size 20 episodes). It survives
 200 steps
 ![Late Training](https://github.com/admlcldo/cartpole/blob/master/late_training.gif)
+
+Here is a plot of the training progress. The y-axis is average number or steps survived in a batch of 20 episodes.
+![Averages](https://github.com/admlcldo/cartpole/blob/master/averages.png)
